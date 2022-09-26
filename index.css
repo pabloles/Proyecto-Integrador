@@ -180,14 +180,32 @@ a{
     
 
 }
-.instagram img{
-    width: 40px;
-    display: flex;
-    position: absolute;
-    right: 11%;
-}
 .mail{
     display: flex;
     position: absolute;
     right: 33%;
+}
+@media (min-width: 768px){
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 425px){
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 375px){
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 320px){
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
