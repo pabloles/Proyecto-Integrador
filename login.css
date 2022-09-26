@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    min-width: 768px;
+    max-width: 1440px;
+}
+section{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+form{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.box{
+    padding: 25px;
+    
+}
+.box2{
+    border-radius: 4px;
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    border: #FF005C;
+    color: aliceblue;
+}
+.boton{
+    width: 90px;
+    text-decoration: none;
+    color: aliceblue;
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    border-radius: 20px;
+    font-size: 16px;
+    position: relative;
+    right: 44px;
+}
+
+h2{
+    
+    color: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    scrollbar-color: transparent;
+    padding: 20px;
+
+}
+.container{
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    border: none;
+    background: rgb(0,0,0);
+    
+}
+.logo img{
+    height: 20%;
+    padding: 20px;
+    
+}
+.logo{
+    position: relative;
+    display: inline-block;
+    top: 23%;
+
+}

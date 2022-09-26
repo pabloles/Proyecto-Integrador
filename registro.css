@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: black;
+    min-width: 768px;
+    max-width: 1440px;
+}
+.registro{
+    width: 400px;
+    background-color: rgb(75, 73, 73);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 6px;
+}
+.registro h4{
+    margin-bottom: 20px;
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    scrollbar-color: transparent;
+}
+.box{
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    border: #FF005C;
+    color: aliceblue;
+}
+.terminos p{
+    margin-bottom: 10px;
+    width: 40px;
+}
+
+.boton{
+    width: 100%;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    border: #FF005C;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.logo{
+    display: flex;
+    position: relative;
+    left: 22%;
+}
